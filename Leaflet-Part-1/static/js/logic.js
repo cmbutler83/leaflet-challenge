@@ -41,7 +41,7 @@
   //}
 
     // Perform an API call to the USGS API to get the earthquake information. 
-    d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson").then(function(data){
+    d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson").then(function(data){
     console.log(data.features);
     // Creating a GeoJSON layer with the retrieved data.
     //L.geoJSON(data).addTo(map);
